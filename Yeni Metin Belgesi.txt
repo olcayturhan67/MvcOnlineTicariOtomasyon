@@ -1,0 +1,13 @@
+kategori
+Ürünler 
+personel
+cari
+fatura
+admin
+TÜr
+departman 
+giderler
+iş_emir
+satış_hareketleri
+Kasa_hareketleri
+stok-kartları

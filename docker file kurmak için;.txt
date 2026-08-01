@@ -1,0 +1,2 @@
+docker file kurmak için;
+ilk önce power Shell yönetici olarak başlat wsl --install diyerek dağıtı kur =>bilgisasyarı kapat aç
