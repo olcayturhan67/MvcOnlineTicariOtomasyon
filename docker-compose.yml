@@ -4,6 +4,8 @@ services:
     container_name: ticari_otomasyon_web
     ports:
       - "8080:8080"
+    volumes:
+      - dataprotection_keys:/root/.aspnet/DataProtection-Keys
     environment:
       ASPNETCORE_ENVIRONMENT: Production
       ConnectionStrings__Context: "Server=sqlserver,1433;Database=dataproje;User Id=sa;Password=${MSSQL_SA_PASSWORD};TrustServerCertificate=True;"
@@ -23,3 +25,4 @@ services:
 
 volumes:
   sqlserver_data:
+  dataprotection_keys:
